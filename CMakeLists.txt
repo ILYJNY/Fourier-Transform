@@ -3,4 +3,7 @@ project(Fourier_transforms)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Fourier_transforms main.cpp)
+add_executable(Fourier_transforms main.cpp
+#        "Discrete Fourier Transform/Discrete Fourier Transform/main.cpp"
+#        "Discrete Fourier Transform/Discrete Fourier Transform/main.h"
+)
