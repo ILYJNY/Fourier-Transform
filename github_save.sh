@@ -12,3 +12,4 @@ echo "Enter the git repos(if you want automatically, type \"Auto\""
 read input_repos
 git remote add origin "${input_repos}"
 git push origin +master
+pause

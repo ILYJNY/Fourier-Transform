@@ -9,3 +9,4 @@ else
 fi
 git remote add origin "https://github.com/ILYJNY/Fourier-Transform.git"
 git push origin +master
+pause
