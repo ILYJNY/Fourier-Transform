@@ -3,9 +3,32 @@
 //
 
 #include "main.h"
-#define Lf long double
-#define ulld unsigned long long int
+#include "ctime"
+#include "cstring"
+#include "iostream"
+#include "../../main.h"
 
+
+using namespace std;
+
+
+
+
+
+string get_times() {
+    //파일 이름 설정
+    time_t current_time;
+    struct tm* time_info;
+    char time_str[80];
+
+    // 현재 시간 구하기
+    current_time = time(NULL);
+    time_info = localtime(&current_time);
+
+    // 시간을 원하는 형식으로 문자열로 변환하기
+    strftime(time_str, sizeof(time_str), "%Y-%m-%d-%H-%M-%S", time_info);
+    return time_str;
+}
 
 
 using namespace std;
@@ -77,9 +100,14 @@ int DFT_main() {
         complex<Lf> trash_N_sqrt(1 / sqrt(N));
         complex<Lf> Y_K_result = trash_N_sqrt * sigma_in_DFT_1(N, k, x_y_complex);
         f_lists.push_back(Y_K_result);
+        string time_str = get_times();
+        string result_time_saver = "saves/" + time_str;
+        ofstream save_files(result_time_saver, ios::app);
+        save_files << to_string(real(Y_K_result)) + "+" + to_string(imag(Y_K_result)) + "i" << endl;
+        save_files.close();
         k+=0.00001;
     }
-    //푸리에변환 리스트 변환까지됨------
+    //푸리에변환 리스트 변환(저장)까지됨------
 
 
 

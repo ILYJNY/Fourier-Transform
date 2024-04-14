@@ -1,5 +1,5 @@
 #include "Discrete Fourier Transform/Discrete Fourier Transform/main.cpp"
-
+#include "main.h"
 
 
 

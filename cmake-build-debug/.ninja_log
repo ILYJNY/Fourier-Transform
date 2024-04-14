@@ -1,14 +1,4 @@
 # ninja log v5
-8	325	7347839219317098	build.ninja	fb08734d5b146763
-4	925	7347839229240833	CMakeFiles/Fourier_transforms.dir/main.cpp.obj	50cbc0b443deedb6
-929	1152	7347839231454561	Fourier_transforms.exe	3864e1eabcf4e491
-10	859	7347840207689398	CMakeFiles/Fourier_transforms.dir/main.cpp.obj	50cbc0b443deedb6
-861	1050	7347840209563886	Fourier_transforms.exe	3864e1eabcf4e491
-10	884	7347840594926457	CMakeFiles/Fourier_transforms.dir/main.cpp.obj	50cbc0b443deedb6
-886	1092	7347840596940750	Fourier_transforms.exe	3864e1eabcf4e491
-10	903	7347840727339136	CMakeFiles/Fourier_transforms.dir/main.cpp.obj	50cbc0b443deedb6
-904	1100	7347840729273544	Fourier_transforms.exe	3864e1eabcf4e491
-9	912	7347841035682694	CMakeFiles/Fourier_transforms.dir/main.cpp.obj	50cbc0b443deedb6
-915	1119	7347841037707279	Fourier_transforms.exe	3864e1eabcf4e491
+8	325	7347990700921855	build.ninja	fb08734d5b146763
 15	912	7347844644569225	CMakeFiles/Fourier_transforms.dir/main.cpp.obj	50cbc0b443deedb6
 914	1118	7347844646589321	Fourier_transforms.exe	3864e1eabcf4e491

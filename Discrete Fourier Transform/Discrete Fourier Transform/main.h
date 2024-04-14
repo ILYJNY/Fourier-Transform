@@ -4,7 +4,7 @@
 
 #ifndef FOURIER_TRANSFORMS_MAIN_H
 #define FOURIER_TRANSFORMS_MAIN_H
-#include "math.h"
+#include <cmath>
 #include "iostream"
 #include "fstream"
 #include "string"
