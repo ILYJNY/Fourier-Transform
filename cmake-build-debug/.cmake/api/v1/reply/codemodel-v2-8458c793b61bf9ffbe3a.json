@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/jeonl/CLionProjects/Fourier transforms/cmake-build-debug",
-		"source" : "C:/Users/jeonl/CLionProjects/Fourier transforms"
+		"build" : "C:/Users/jeonl/CLionProjects/Fourier_transforms/cmake-build-debug",
+		"source" : "C:/Users/jeonl/CLionProjects/Fourier_transforms"
 	},
 	"version" : 
 	{
