@@ -1,4 +1,4 @@
-#include "Discrete Fourier Transform/Discrete Fourier Transform/main.cpp"
+#include "Discrete Fourier Transforms/Discrete Fourier Transform/main.cpp"
 #include "main.h"
 
 
@@ -28,7 +28,7 @@
             }
         }
         else if (todo_list == "STOP PROGRAM") {
-            break;
+            return 0;
 
         }
 

@@ -9,9 +9,4 @@
 #define ulld unsigned long long int
 #define lld long long int
 #define ld long int
-#define
-
-
-
-
 #endif //FOURIER_TRANSFORMS_MAIN_H

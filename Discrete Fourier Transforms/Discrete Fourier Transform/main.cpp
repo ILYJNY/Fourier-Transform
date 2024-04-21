@@ -7,6 +7,8 @@
 #include "cstring"
 #include "iostream"
 #include "../../main.h"
+#define Lf long double
+#define ulld unsigned long long int
 
 
 using namespace std;
@@ -56,12 +58,13 @@ int DFT_main() {
     bool able_to_open_file;
     string file_location;
     string textfile;
-    cout << "Give the Location of File : ";
-    cin >> file_location;
-    ifstream info_file(file_location);
     vector<string> cuttedwithlinefile;
     vector<Lf> x_list;
     vector<Lf> y_list;
+    cout << "Give the Location of File : ";
+    cin >> file_location;
+//    ifstream info_file(file_location);
+    ifstream info_file(R"(C:\Users\jeonl\CLionProjects\Fourier_transforms\Discrete Fourier Transforms\Discrete Fourier Transform\examples_list\example0.txt)");
     if (info_file.is_open()) {
         string line;
         while (getline(info_file, line)) {

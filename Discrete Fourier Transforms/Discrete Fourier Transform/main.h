@@ -12,4 +12,9 @@
 #include "sstream"
 #include "tchar.h"
 #include "complex"
+#define Lf long double
+#define ulld unsigned long long int
+#define lld long long int
+#define ld long int
+
 #endif //FOURIER_TRANSFORMS_MAIN_H

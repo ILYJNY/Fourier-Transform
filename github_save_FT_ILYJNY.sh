@@ -8,6 +8,6 @@ if [ ${input_commit} = "Auto" ] ; then
 else
   git commit -m "${input_commit}"
 fi
-git remote add origin "https://github.com/ILYJNY/Fourier-Transform.git"
-git push origin +master
+git remote add FT "https://github.com/ILYJNY/Fourier-Transform.git"
+git push FT +master
 pause
