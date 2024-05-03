@@ -55,6 +55,18 @@ build CMakeFiles/Fourier_transforms.dir/main.cpp.obj: CXX_COMPILER__Fourier_tran
   OBJECT_DIR = CMakeFiles\Fourier_transforms.dir
   OBJECT_FILE_DIR = CMakeFiles\Fourier_transforms.dir
 
+build CMakeFiles/Fourier_transforms.dir/Discrete_Fourier_Transforms/Discrete_Fourier_Transform/DFT.cpp.obj: CXX_COMPILER__Fourier_transforms_unscanned_Debug C$:/Users/jeonl/CLionProjects/Fourier_transforms/Discrete$ Fourier$ Transforms/Discrete$ Fourier$ Transform/DFT.cpp || cmake_object_order_depends_target_Fourier_transforms
+  DEP_FILE = CMakeFiles\Fourier_transforms.dir\Discrete_Fourier_Transforms\Discrete_Fourier_Transform\DFT.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Fourier_transforms.dir
+  OBJECT_FILE_DIR = CMakeFiles\Fourier_transforms.dir\Discrete_Fourier_Transforms\Discrete_Fourier_Transform
+
+build CMakeFiles/Fourier_transforms.dir/Fast_Fourier_Transform/FFT&IFFT.cpp.obj: CXX_COMPILER__Fourier_transforms_unscanned_Debug C$:/Users/jeonl/CLionProjects/Fourier_transforms/Fast$ Fourier$ Transform/FFT&IFFT.cpp || cmake_object_order_depends_target_Fourier_transforms
+  DEP_FILE = "CMakeFiles\Fourier_transforms.dir\Fast_Fourier_Transform\FFT&IFFT.cpp.obj.d"
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Fourier_transforms.dir
+  OBJECT_FILE_DIR = CMakeFiles\Fourier_transforms.dir\Fast_Fourier_Transform
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Fourier_transforms
@@ -63,7 +75,7 @@ build CMakeFiles/Fourier_transforms.dir/main.cpp.obj: CXX_COMPILER__Fourier_tran
 #############################################
 # Link the executable Fourier_transforms.exe
 
-build Fourier_transforms.exe: CXX_EXECUTABLE_LINKER__Fourier_transforms_Debug CMakeFiles/Fourier_transforms.dir/main.cpp.obj
+build Fourier_transforms.exe: CXX_EXECUTABLE_LINKER__Fourier_transforms_Debug CMakeFiles/Fourier_transforms.dir/main.cpp.obj CMakeFiles/Fourier_transforms.dir/Discrete_Fourier_Transforms/Discrete_Fourier_Transform/DFT.cpp.obj CMakeFiles/Fourier_transforms.dir/Fast_Fourier_Transform/FFT&IFFT.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Fourier_transforms.dir
